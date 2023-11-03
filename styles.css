@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: black;
+  color: aliceblue;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: rgb(38, 36, 36);
+  color: white;
+  padding-inline: 40px;
+}
+
+div.logo {
+  height: 80px;
+  width: 80px;
+  /* background-color: #fa8072; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.nav-items {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.logo img {
+  /* margin-left: 7px;
+  margin-top: 7px; */
+  height: 80%;
+  width: 80%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.section1 {
+}
+
+/*! //////////////  */
+/** section boxes  */
+/*! //////////////  */
+
+div.box {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+}
+
+.section1 div.box {
+  border: 3px solid #fa8072;
+}
+
+.section2 div.box {
+  border: 3px solid rgb(118, 250, 114);
+}
+
+/*? //////////////  */
+/** //////////////  */
+/*? //////////////  */
+
+/* Utility classes er css kode som gjør bare 1 eller veldig få ting ting: */
+.top-text {
+  font-size: 10rem;
+}
+
+.box1 {
+  /* margin: 50px; */
+  background-color: aqua;
+}
+
+.box2 {
+  /* margin: 5px; */
+  background-color: rgb(207, 122, 31);
+}
+.box3 {
+  /* margin: 30px; */
+  background-color: rgb(193, 191, 248);
+}
+
+p.text-green {
+  color: green;
+}
+
+h2.text-green {
+  color: rgb(0, 255, 0);
+}
+
+section {
+}
+
+h1 {
+}
+
+p {
+}
+
+img {
+  width: 100px;
+}
