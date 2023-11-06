@@ -27,7 +27,7 @@ div.logo {
 
 div.nav-items {
   display: flex;
-  gap: 5px;
+  gap: 50px;
   align-items: center;
 }
 
