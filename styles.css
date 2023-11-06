@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -50,11 +51,11 @@ nav a {
 /** section boxes  */
 /*! //////////////  */
 
-div.box {
+/* div.box {
   width: 300px;
   height: 300px;
   margin: 10px;
-}
+} */
 
 .section1 div.box {
   border: 3px solid #fa8072;
@@ -73,19 +74,7 @@ div.box {
   font-size: 10rem;
 }
 
-.box1 {
-  /* margin: 50px; */
-  background-color: aqua;
-}
 
-.box2 {
-  /* margin: 5px; */
-  background-color: rgb(207, 122, 31);
-}
-.box3 {
-  /* margin: 30px; */
-  background-color: rgb(193, 191, 248);
-}
 
 p.text-green {
   color: green;
@@ -95,15 +84,44 @@ h2.text-green {
   color: rgb(0, 255, 0);
 }
 
-section {
-}
+#sometext {
 
-h1 {
-}
-
-p {
 }
 
 img {
   width: 100px;
+}
+
+
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0 0 10px;
+  height: 300px;
+  width: 300px;
+  border: 5px solid pink;
+}
+
+.box1 {
+  background-color: aqua;
+}
+
+.box2 {
+  background-color: rgb(207, 122, 31);
+}
+.box3 {
+  background-color: rgb(44, 41, 114);
+}
+
+.box4 {
+  background-color: rgb(41, 159, 92);
+}
+.box5 {
+  background-color: rgb(198, 32, 167);
+}
+.box6 {
+  background-color: rgb(185, 153, 48)
 }
